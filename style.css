@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+/* <Header> */
+
+.head{
+    position: relative;
+    height: 100px;
+    background-color: rgb(88, 200, 90);
+    
+}
+.container{
+    display:flex;
+    margin-right: 120px;
+    margin-top: 10px;
+    position: absolute;
+    right: 0;
+}
+.image1{
+    justify-self: start;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+ul, li a{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 40px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(55, 86, 209);
+}
+a:hover{
+    color: rgb(245, 7, 7);
+    transition: 0.6s;
+}
+
+/* <Hero Section> */
+
+.section1{
+    background-color: rgb(56, 159, 101);
+    height: 738px;
+}
+
+ .image2{
+  background-image: cover;
+  height: 500px;
+  width: 1300px;
+  margin-left: 100px;
+  margin-top: 50px;
+  border: 1px solid rgb(170, 233, 128);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+    
+} 
+ .container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    margin-top: 20px;
+    color: white;
+    
+}
+#p1{
+    color: white;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+ /* About Sectioon */
+ 
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    height: 738px;
+    
+}
+h1{
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+/* Services */
+
+#h1{
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#n1{
+ text-align: center;
+ color: rgb(104, 105, 107);
+}
+#n2{
+    text-align: center;
+    color: rgb(104, 105, 107);
+}
+   
+#n3{
+    text-align: center;
+    color: rgb(104, 105, 107);
+}
+#n4{
+    text-align: center;
+    color: rgb(104, 105, 107);
+} 
+
+.container3,.container5{
+
+    display: flex;
+    gap: 10px ;
+
+}
+.d1 #m1,.d3 #m3{
+    width: 800px;
+    height: 400px;
+}
+.d2 #m2,.d4 #m4{
+    width: 800px;
+    height: 400px;
+}
+
+.d1 #m1,.d3 #m3{
+  flex: 1;
+}
+.d2 #m2,.d4 #m4{
+   flex: 1;
+}
+
+   
+
+/* Contact */
+
+.container4{
+    height: 200px;
+    background-color: rgb(135, 131, 131);
+    margin-top: 10px;
+}
+#p2{
+    padding-top: 30px;
+    padding-left: 20px;
+    color: white;
+}
